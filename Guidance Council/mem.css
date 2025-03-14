@@ -1,0 +1,50 @@
+/* Reset ng CSS para sa default na istilo ng browser */
+body, h1, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Pangunahing istilo */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .member-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .member-list li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    padding: 8px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .programmer {
+    transition: all 0.3s ease; 
+  }
+  
+  .programmer:hover {
+    transform: scale(1.1);
+    font-weight: bold;
+    color: blue;
+  }
+  
+  

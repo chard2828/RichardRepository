@@ -1,0 +1,185 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #f2f2f2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.sidebar {
+    width: 30%;
+    height: 100%;
+    background: #E3DCFE;
+    display: flex;
+}
+
+.content {
+    width: 85%;
+    height: 100%;
+    background: #E3DCFE;
+}
+
+.content-wrapper {
+    margin-top: 98px;
+    padding: 0 20px 80px 0px;
+}
+
+.card {
+    background: rgb(255, 255, 255);
+    border-radius: 15px;
+    padding: 20px 30px;
+    max-width: 300px;
+    min-height: 560px;
+    margin-top: 98px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: 30px;
+   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.nav-title {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.link-item {
+    padding: 10px 30px;
+    padding-left: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.link {
+    list-style: none;
+    text-decoration: none;
+    font-size: 15px;
+    color: #707070;
+    font-weight: 600;
+}
+
+.link_active {
+    color: #7618B5;
+}
+
+.appointment {
+    font-weight: bold;
+    text-decoration: none;
+    color: #2c2c2c;
+}
+
+.registration {
+    font-weight: bold;
+    text-decoration: none;
+    color: #2c2c2c;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .btn:hover {
+    background-color: #e65100;
+  }
+section {
+    margin-bottom: 10px;
+    padding: 1px;
+    background-color: #fff1;
+    border-radius: 20px;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+.report-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+.counseling-entry, .scholarship-entry, .visit-log-entry, .evaluation-entry {
+    border: 1px solid rgba(0, 0, 0, 0.26);
+    padding: 10px;
+    border-radius: 5px;
+    width: calc(50% - 10px); 
+    box-sizing: border-box;
+}
+  
+.counseling-entry h3,
+.scholarship-entry h3,
+  .visit-log-entry p,
+  .evaluation-entry h3 {
+    margin-top: 0;
+  }
+
+  .counseling-entry {
+    background-color: #fff1;
+  }
+  
+  .scholarship-entry {
+    background-color: #fff1;
+  }
+  
+  .visit-log-entry {
+    background-color: #fff1;
+  }
+  
+  .evaluation-entry {
+    background-color: #fff1;
+  }
+
+  h1 {
+    text-align: center;
+  }
+  
+  table {
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+    border-collapse: collapse;
+  }
+  
+  td {
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: calc(100% - 12px);
+    padding: 6px;
+    margin: 4px 0;
+  }
+  
+  button {
+    padding: 8px 16px;
+    margin: 8px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }

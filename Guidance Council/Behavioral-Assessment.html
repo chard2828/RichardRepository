@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="img/jpg" href="logo.jpg">
+    <title>Questionnaire</title>
+    <style>
+        body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: left;
+    color: #333;
+}
+
+.question {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+input[type="submit"] {
+    display: inline-block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: violet;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: darkmagenta;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Questionnaire: Behavioral Assessment</h2>
+        <form action="Posting.html" method="post">
+            <ul>    
+               <div class="question">
+                  <p>1. Which statement best describes your approach to handling conflicts</p>
+                  <label><input type="radio" name="q1" value="a">a. I tend to avoid conflicts altogether</label>
+                  <label><input type="radio" name="q1" value="b">b. I confront conflicts openly and seek resolution</label>
+                  <label><input type="radio" name="q1" value="c">c. I ignore conflicts and hope they resolve themselves</label>
+                  <label><input type="radio" name="q1" value="d">d. I escalate conflicts without attempting resolution</label>
+               </div>
+            </ul>   
+            <ul>
+                <div class="question">
+                   <p>2. How do you typically handle unexpected challenges or setbacks?</p>
+                   <label><input type="radio" name="q2" value="a">a. I become overwhelmed and give up easily</label>
+                   <label><input type="radio" name="q2" value="b">b. I persist and find alternative solutions</label>
+                   <label><input type="radio" name="q2" value="c">c. I blame others for the challenges</label>
+                   <label><input type="radio" name="q2" value="d">d. I ignore setbacks and hope they resolve on their own</label>
+                </div>
+            </ul>   
+            <ul>
+                <div class="question">
+                   <p>3. In a team setting, what role do you usually take on?</p>
+                   <label><input type="radio" name="q3" value="a">a. I prefer to lead and take charge</label>
+                   <label><input type="radio" name="q3" value="b">b. I contribute ideas but avoid leadership roles</label>
+                   <label><input type="radio" name="q3" value="c">c. I let others make decisions without contributing</label>
+                   <label><input type="radio" name="q3" value="d">d. I disrupt team efforts by being uncooperative</label>
+                </div>
+            </ul> 
+            <ul>
+                <div class="question">
+                   <p>4. How do you respond to feedback or constructive criticism?</p>
+                   <label><input type="radio" name="q4" value="a">a. I become defensive and dismiss the feedback</label>
+                   <label><input type="radio" name="q4" value="b">b. I reflect on the feedback and consider making changes</label>
+                   <label><input type="radio" name="q4" value="c">c. I ignore the feedback as irrelevant</label>
+                   <label><input type="radio" name="q4" value="d">d. I become demotivated and withdraw from the situation</label>
+                </div>
+            </ul>
+            <ul>
+                <div class="question">
+                   <p>5. Which best describes your approach to new challenges?</p>
+                   <label><input type="radio" name="q5" value="a">a. I feel anxious and avoid facing new challenges</label>
+                   <label><input type="radio" name="q5" value="b">b. I approach new challenges with enthusiasm</label>
+                   <label><input type="radio" name="q5" value="c">c. I seek ways to pass new challenges to others</label>
+                   <label><input type="radio" name="q5" value="d">d. I ignore new challenges in hopes they disappear</label>
+                </div>
+            </ul>
+            <ul><input type="submit" value="Submit"></ul>
+        </form>
+    </div>
+</body>
+</html>

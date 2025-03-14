@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="img/jpg" href="logo.jpg">
+    <title>Questionnaire</title>
+    <style>
+        body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: left;
+    color: #333;
+}
+
+.question {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+input[type="submit"] {
+    display: inline-block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: violet;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: darkmagenta;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Questionnaire: Critical Thinking</h2>
+        <form action="Posting.html" method="post">
+            <ul>
+               <div class="question">
+                  <p>1. Which of the following statements demonstrates critical thinking?</p>
+                  <label><input type="radio" name="q1" value="a">a. Accepting information without questioning its source</label>
+                  <label><input type="radio" name="q1" value="b">b. Reviewing evidence before forming a conclusion</label>
+                  <label><input type="radio" name="q1" value="c">c. Sticking to initial opinions without considering alternatives</label>
+                  <label><input type="radio" name="q1" value="d">d. Disregarding logical inconsistencies in an argument</label>
+               </div>
+            </ul>   
+            <ul>
+                <div class="question">
+                   <p>2. When faced with a complex problem, a critical thinker is more likely to:</p>
+                   <label><input type="radio" name="q2" value="a">a. Rely on intuition to make decisions quickly</label>
+                   <label><input type="radio" name="q2" value="b">b. Break down the problem into smaller parts for analysis</label>
+                   <label><input type="radio" name="q2" value="c">c. Avoid seeking different perspectives</label>
+                   <label><input type="radio" name="q2" value="d">d. Avoid seeking different perspectives</label>
+                </div>
+            </ul>   
+            <ul>
+                <div class="question">
+                   <p>3. What is a key characteristic of critical thinking?</p>
+                   <label><input type="radio" name="q3" value="a">a. Jumping to conclusions based on assumptions</label>
+                   <label><input type="radio" name="q3" value="b">b. Accepting information at face value</label>
+                   <label><input type="radio" name="q3" value="c">c. Evaluating evidence and reasoning</label>
+                   <label><input type="radio" name="q3" value="d">d. Ignoring conflicting viewpoints</label>
+                </div>
+            </ul> 
+            <ul>
+                <div class="question">
+                   <p>4. Which scenario best demonstrates critical thinking skills?</p>
+                   <label><input type="radio" name="q4" value="a">a. Accepting a theory without questioning its validity</label>
+                   <label><input type="radio" name="q4" value="b">b. Analyzing various solutions before choosing the most effective one</label>
+                   <label><input type="radio" name="q4" value="c">c. Following instructions without considering alternative methods</label>
+                   <label><input type="radio" name="q4" value="d">d. Dismissing evidence that contradicts personal beliefs</label>
+                </div>
+            </ul>
+            <ul>
+                <div class="question">
+                   <p>5. Which action is NOT aligned with critical thinking?</p>
+                   <label><input type="radio" name="q5" value="a">a. Being open-minded to different perspectives</label>
+                   <label><input type="radio" name="q5" value="b">b. Asking probing questions to clarify information</label>
+                   <label><input type="radio" name="q5" value="c">c. Making decisions based on emotions rather than facts</label>
+                   <label><input type="radio" name="q5" value="d">d. Considering potential biases in collected data</label>
+                </div>
+            </ul>
+            <ul><input type="submit" value="Submit"></ul>
+        </form>
+    </div>
+</body>
+</html>

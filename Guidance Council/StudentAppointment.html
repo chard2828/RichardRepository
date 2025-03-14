@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="img/jpg" href="logo.jpg">
+    <title>Student Council: Student Appointment</title>
+
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="home.css"> 
+
+</head>
+
+<body>
+    <div class="container">
+        <nav class="sidebar">
+            <div class="card">
+                <h2 class="nav-title">Menu</h2>
+                <hr>
+                <div class="link-item ">
+                    <a class="link " href="Posting.html">Posting</a>
+                </div>
+                <div class="link-item">
+                    <a class="link" href="CounselingService.html">Counseling Service</a>
+                </div>
+                <div class="link-item">
+                    <a class="link" href="Document.html">Document</a>
+                </div>
+                <div class="link-item">
+                    <a class="link" href="Profiling.html">Profiling</a>
+                </div>
+                <div class="link-item">
+                    <a class="link" href="ResearchSurveyEval.html">Research/Survey Evaluation</a>
+                </div>
+                <div class="link-item">
+                    <a class="link" href="Testing.html">Testing</a>
+                </div>
+                <div class="link-item">
+                    <a class="link link_active" href="StudentAppointment.html">Student Appointment</a>
+                </div>
+                <div class="link-item">
+                    <a class="link" href="Reports.html">Reports</a>
+                </div>
+                <br>
+                <hr>
+                <br>
+                <a href="incase.html" class="btn">Click here to go back</a>
+            </div>
+        </nav>
+        <div class="content">
+            <div class="content-wrapper">
+                <h1>Student Appointment</h1>
+                <h1>Consultation and Rejection Form</h1>
+  <table>
+    <tr>
+      <td><label for="name">Name:</label></td>
+      <td><input type="text" id="name" name="name"></td>
+    </tr>
+    <tr>
+      <td><label for="email">Email:</label></td>
+      <td><input type="email" id="email" name="email"></td>
+    </tr>
+    <tr>
+      <td><label for="message">Message:</label></td>
+      <td><textarea id="message" name="message" rows="4"></textarea></td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <button id="consultButton">Consultation</button>
+        <button id="rejectButton">Rejection</button>
+      </td>
+    </tr>
+  </table>
+
+  <script>
+    document.getElementById('consultButton').addEventListener('click', function() {
+      alert('Consultation request submitted!');
+    });
+
+    document.getElementById('rejectButton').addEventListener('click', function() {
+      alert('Rejection request submitted!');
+    });
+  </script>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

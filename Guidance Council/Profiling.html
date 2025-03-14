@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="img/jpg" href="logo.jpg">
+    <title>Student Council: Profiling</title>
+
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="profl.css">
+
+    <script src="https://kit.fontawesome.com/95c9e44fdb.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <nav class="sidebar">
+            <div class="card">
+                <h2 class="nav-title">Menu</h2>
+                <div class="link-item ">
+                    <a class="link" href="Posting.html">Posting</a>
+                </div>
+                <div class="link-item">
+                    <a class="link" href="CounselingService.html">Counseling Service</a>
+                </div>
+                <div class="link-item">
+                    <a class="link" href="Document.html">Document</a>
+                </div>
+                <div class="link-item">
+                    <a class="link link_active" href="Profiling.html">Profiling</a>
+                </div>
+                <div class="link-item">
+                    <a class="link" href="ResearchSurveyEval.html">Research/Survey Evaluation</a>
+                </div>
+                <div class="link-item">
+                    <a class="link" href="Testing.html">Testing</a>
+                </div>
+                <div class="link-item">
+                    <a class="link" href="StudentAppointment.html">Student Appointment</a>
+                </div>
+                <div class="link-item">
+                    <a class="link" href="Reports.html">Reports</a>
+                </div>
+                <br>
+                <hr>
+                <br>
+                <a href="incase.html" class="btn">Click here to go back</a>
+            </div>
+        </nav>
+        <div class="content">
+            <div class="content-wrapper">
+                <h1>Profiling</h1>
+                <h2>Student Profile</h2>
+                <input type="button" class="bttn" value="Home">
+                <input type="button" class="bttn" value="View">
+                <input type="button" class="bttn" value="+Add">
+                <input type="button" class="bttn" value="+Import">
+                <input type="button" class="bttn" value="Edit">
+                <input type="button" class="bttn" value="Delete">
+                <form>
+                    <button type="submit" class="srch"><i class="fa-solid fa-magnifying-glass" style="color: #000;"></i>
+                    </button>
+                    <input type="text" class="srch" placeholder="Search...">
+                </form>
+                <br>
+                <select name="page" id="page">
+                    <option value="10">10</option>
+                    <option value="20">20</option>
+                    <option value="30">30</option>
+                </select>
+                <label for="page" id="dd">Records per page</label>
+                <br>
+                <table>
+                    <tr>
+                        <th>Student Number</th>
+                        <th>Student Name</th>
+                        <th>Course/Year/Section</th>
+                        <th>Status</th>
+                        <th>Action</th>
+                    </tr>
+                    <tr>
+                        <td class="fr">22015844</td>
+                        <td class="sd">Gulmatico, Richard</td>
+                        <td class="fr">Information Technology / Year 2 / Section 2103</td>
+                        <td class="sd">Regular</td>
+                        <td><input type="button" class="vw" value="View"></td> 
+                    </tr>
+                    <tr>
+                        <td class="fr">22011139</td>
+                        <td class="sd">Delantar, Trisha</td>
+                        <td class="fr">Information Technology / Year 2 / Section 2103</td>
+                        <td class="sd">Regular</td>
+                        <td><input type="button" class="vw" value="View"></td> 
+                    </tr>
+                    <tr>
+                        <td class="fr">2213579</td>
+                        <td class="sd">Edilyn, Alix</td>
+                        <td class="fr">Information Technology / Year 2 / Section 2103</td>
+                        <td class="sd">Regular</td>
+                        <td><input type="button" class="vw" value="View"></td> 
+                    </tr>
+                </table>
+                <br>
+                <input type="button" class="arw" value="<"> Page 1
+                <input type="button" class="arw" value=">">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

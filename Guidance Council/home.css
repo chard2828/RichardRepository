@@ -1,0 +1,94 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+  font-family:sans-serif;
+ 
+}
+
+body {
+  background: radial-gradient(circle at 10% 20%, rgb(137, 210, 253) 0%, rgb(255, 241, 188) 90%);
+  display:flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+main.table {
+  width: 80vw;
+  height: 90vh;
+  position: relative; 
+  box-sizing: border-box;
+  backdrop-filter: blur (7px);
+  box-shadow: 0 .3rem .3rem black;
+  border-radius: .4rem;
+  padding: 15px;
+  
+}
+
+.table_header{
+  width: 100%;
+  height: 10%;
+  background-color: #fff4;
+  padding: .8rem .1rem;
+  padding-left: 15px;
+  border-radius: .4rem;
+ 
+}
+
+
+.table_body{
+  width: 100%;
+  max-height: calc (89% - .8rem);
+  background-color: #fffb;
+  
+
+  margin: .8rem auto;
+  border-radius: .6rem;
+  overflow: auto;
+  
+}
+
+table,th,td{
+  border-collapse:collapse;
+  padding: 1rem;
+  text-align: left;
+
+}
+thead th{
+  position: sticky;
+  top: 0;
+  left:0;
+  background-color: #d5d1d5;
+  
+
+}
+tbody tr:nth-child(even){
+
+  background-color: #0000000b;
+  
+}
+tbody tr:hover{
+  transition: scale(1,1);
+  background-color: #fff6;
+  
+}
+
+.status{
+  padding: 5px ;
+  border-radius: 1rem;
+  text-align: center;
+  
+}
+.right_side
+{
+  width: 90%;
+  float: right;
+  display: block;
+  border-radius: .4rem; 
+  align-items: center;
+}
+.button10:hover {background-color: aqua;border-radius: 8px;font-size: 10px;} 
+#mumb{height: 500px; background-color: aqua;}

@@ -1,0 +1,41 @@
+body, h1, h2, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the header */
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* Style the main content area */
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+/* Style the introduction section */
+.introduction {
+  margin-bottom: 30px;
+}
+
+.introduction h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.introduction p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.login{
+    font-weight: bold;
+    text-decoration: none;
+    color: #2c2c2c;
+}
